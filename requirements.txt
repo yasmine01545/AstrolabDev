@@ -1,0 +1,6 @@
+
+python-dotenv
+google_generativeai
+flask
+openai==0.28
+groq
