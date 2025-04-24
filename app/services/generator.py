@@ -45,6 +45,10 @@ def regenerate_with_instruction(existing_description: str, data: dict) -> str:
     # regeneration function
     prompt = regeneration_prompt(existing_description, data)
 
+
+
+
+    print("#######################################################"+prompt)
     # Call the model 
     return generate_with_fallback(prompt)
 
